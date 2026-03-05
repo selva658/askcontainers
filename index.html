@@ -894,7 +894,7 @@
           </svg>
         </div>
         <div class="about-badge">
-          <div class="num">4+</div>
+          <div class="num">5+</div>
           <div class="txt">Years of Experience</div>
         </div>
       </div>
@@ -902,7 +902,7 @@
         <div class="section-tag">About ASK Container Services</div>
         <h2 class="section-title">ASK Container Services</h2>
         <div class="section-line"></div>
-        <p>At ASK Container Services, we have over 4 years of proven experience specializing in prefabricated solutions tailored to meet various housing and workspace needs. Our offerings include innovative modular homes crafted from containers, ensuring both durability and flexibility for modern living and production of premium portable containers. of prefabricated solutions tailored to meet various housing and workspace needs. Our offerings include innovative modular homes crafted from containers, ensuring both durability and flexibility for modern living and production of premium portable containers.
+        <p>At ASK Container Services, we have over 5 years of proven experience specializing in prefabricated solutions tailored to meet various housing and workspace needs. Our offerings include innovative modular homes crafted from containers, ensuring both durability and flexibility for modern living and production of premium portable containers. of prefabricated solutions tailored to meet various housing and workspace needs. Our offerings include innovative modular homes crafted from containers, ensuring both durability and flexibility for modern living and production of premium portable containers.
         </p>
         <p>
           The variety of items offered includes security cabins, portable containers, office containers, and much more. These goods are well regarded for their excellent finishing, little upkeep, dependability, strength, lightweight design, and extended lifespan. Customers may get these portable containers at really affordable prices.
@@ -951,7 +951,7 @@
         <div class="label">Experienced Team</div>
       </div>
       <div class="stat-item">
-        <div class="num" data-target="4">0</div>
+        <div class="num" data-target="5">0</div>
         <div class="label">Years of Experience</div>
       </div>
     </div>
@@ -1185,7 +1185,7 @@
 
   // Services data
   const services = [
-    { num: '01', title: "20'ft House Container", desc: "Fully equipped residential containers for comfortable modern living with all amenities.", icon: "🏠" },
+    { num: '01', title: "20'ft House Container", desc: "Fully equipped residential containers for comfortable modern living with all amenities.", icon: "https://www.yugongmachinery.com/wp-content/uploads/2025/06/20ft-shipping-container-home.jpg" },
     { num: '02', title: "20'ft Office Container", desc: "Professional workspace containers ideal for corporate sites and temporary offices.", icon: "🏢" },
     { num: '03', title: "20'ft Labour Accommodation", desc: "Comfortable and safe accommodation containers for on-site labour and workers.", icon: "👷" },
     { num: '04', title: "20'ft Site Office Furnished", desc: "Fully furnished site office containers with all essential office equipment included.", icon: "🗂️" },
@@ -1205,7 +1205,7 @@
     grid.innerHTML += `
       <div class="service-card">
         <div class="service-img" style="background: linear-gradient(135deg, ${colors[i]}, ${colors[(i+2)%colors.length]})">
-          <span style="font-size:48px;z-index:1;position:relative;">${s.icon}</span>
+          <img src="${s.icon}" alt="${s.title}" style="width:80px;height:80px;object-fit:cover;border-radius:10px;z-index:1;position:relative;">
           <span class="s-num">${s.num}</span>
         </div>
         <div class="service-body">
